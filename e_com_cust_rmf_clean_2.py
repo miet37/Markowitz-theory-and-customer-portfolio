@@ -36,7 +36,7 @@ def p95 (x):
 def p99 (x): 
     return np.percentile(x, q=99)
 
-xls_file = 'e-com_dataset_mp_c2.xlsx'
+xls_file = 'e-com_dataset_mp_c3.xlsx'
 print('\nreading order_items')
 dfxx = pd.read_excel(xls_file,sheet_name="order_items")
 dfxx.columns
